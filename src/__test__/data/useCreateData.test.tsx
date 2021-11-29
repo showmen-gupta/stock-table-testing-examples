@@ -27,7 +27,7 @@ describe('When this hook is called', () => {
     expect(data.length).toBeGreaterThan(0);
   });
 
-  it('should have a date', () => {
+  it('should have a valid date', () => {
     const mockedEbossCode = data.map(x => x.date).pop();
 
     expect(mockedEbossCode).not.toBe('');
