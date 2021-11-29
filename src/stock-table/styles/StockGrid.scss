@@ -1,0 +1,38 @@
+.table-row {
+    font-family: Equinor;
+    border: 2px solid rgb(206,32,41);
+}
+.table-header {
+    background-color: #C0C0C0;
+}
+.table-header-cell {
+    b{
+        font-family: Equinor;
+        font-size: 15px;
+    }
+}
+.show-deviation{
+    float: right;
+    margin-right: 20px;
+}
+
+.sox-title {
+    margin-top: 10px;
+    font-family: Equinor;
+}
+
+.checkBoxLabel {
+    font-size: 5px;
+}
+
+.comment-value {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px;
+}
+.editIcon {
+    border: 1px solid;
+    border-radius: 90%;
+    background-color: lightgreen;
+}
