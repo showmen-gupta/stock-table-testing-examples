@@ -5,7 +5,7 @@ import { StockDataTable } from '../stock-table/StockDataTable';
 import { CustomCharts } from '../stock-table/components/graph/CustomCharts';
 import { Typography } from '@material-ui/core';
 
-describe('Rendering component App', () => {
+describe('Rendering component correctly', () => {
   it('renders correctly', () => {
     //given
     const wrapper = render(<App/>);
