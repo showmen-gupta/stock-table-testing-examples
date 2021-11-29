@@ -8,6 +8,7 @@ module.exports = function(env) {
   const dotenvPath = path.resolve(__dirname, `./.env.${env.environment}`);
   var baseConfig = {
     entry: './src/index.js',
+    mode: 'development',
     devtool: 'inline-source-map',
     module: {
       rules: [
