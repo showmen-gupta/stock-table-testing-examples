@@ -1,5 +1,3 @@
-# Sox controller table mock UI
-This project is a test project for sox controller later will be transferred in the main project
 
 ## Available Scripts
 
